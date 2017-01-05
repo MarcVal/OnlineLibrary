@@ -97,6 +97,7 @@ public class OnlineLibrarySteps extends TestBase {
 // Assertion
 
     @And("^I go to Reviews and I add a review$")
+
     public void iGoToReviewsAndIAddAReview() {
         driver.findElement(By.className("title-holder title")).click();
         onlineLibraryPage.getReviewTab().click();
