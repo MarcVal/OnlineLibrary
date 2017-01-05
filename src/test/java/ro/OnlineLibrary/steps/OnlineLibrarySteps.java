@@ -133,7 +133,6 @@ public class OnlineLibrarySteps extends TestBase {
         mouseOver(onlineLibraryPage.getCartLink());
         driver.findElement(By.xpath("//h2[@class='widgettitle']"));
         Thread.sleep(2000);
-        // onlineLibraryPage.getCartLink().
         onlineLibraryPage.getCartButton().click();
     }
 
