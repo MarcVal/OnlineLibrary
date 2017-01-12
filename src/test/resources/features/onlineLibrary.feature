@@ -1,7 +1,8 @@
 Feature: Shopping for books
 
-  Scenario:
-    Given I go to "http://www.fasttrackit.org/OnlineLibrary/"
+  Scenario: Sorting, buying, review and contact features: 
+  
+   Given I go to "http://www.fasttrackit.org/OnlineLibrary/"
    And I go to shop section in the menu bar
    And I sort books by highest price first
    And I check if the listing is by price decrease
@@ -12,7 +13,8 @@ Feature: Shopping for books
    Then I go on Contact section of the menu and I send a message
 
 
-  Scenario:
+  Scenario: Adding products to cart and checkout:
+  
     Given  I go to "http://www.fasttrackit.org/OnlineLibrary/"
     And I go to Online Store section of the menu
     And I add to cart the first and the last products
